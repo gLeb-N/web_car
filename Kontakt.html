@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Automobilový web</h1>
+
+    <nav>
+        <a href="index.html">Domů</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="rozvrh.html">Rozvrh</a>
+        <a href="Kontakt.html">Kontakt</a>
+    </nav>
+</header>
+<main>
+    <form>
+        <label for = "Jméno"> Jméno:</label>
+        <input type="text" id="Jmeno" name="Jmeno" required>
+
+        <label for = "mail">Email:</label>
+        <input type="email" id="mail" name="mail" required>
+
+        <label for = "vek">Věk:</label>
+        <input type="number" id="vek" name="vek">
+
+        <label for = "pass">Heslo:</label>
+        <input type="password" id="pass" name="pass">
+
+        <input type="date">
+        <input type="color">
+        <input type="range">
+
+        <select>
+            <option value='moznost'> Možnost</option>
+            <option value='moznost1'> Možnost1</option>
+            <option value='moznost2'> Možnost2</option>
+        </select>
+
+        <textarea rows="6" minlength="10"></textarea>
+
+        <input type="checkbox">
+        <input type="radio">
+
+
+        <fieldset name="skala">
+            <input type="radio" name="skala">
+            <input type="radio" name="skala">
+            <input type="radio" name="skala">
+        </fieldset>
+
+        <button type="submit">Odeslat</button>
+    </form>
+</main>
+
+</body>
+</html>
